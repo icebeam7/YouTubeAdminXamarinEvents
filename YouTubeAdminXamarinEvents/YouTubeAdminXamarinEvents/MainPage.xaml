@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:YouTubeAdminXamarinEvents"
+             x:Class="YouTubeAdminXamarinEvents.MainPage">
+
+    <StackLayout Orientation="Vertical">
+
+        <Label Text="YouTube Xamarin Videos"
+           FontSize="66"
+           TextColor="Black"/>
+
+        <Button Text="Login with Facebook"
+            TextColor="White"
+            BackgroundColor="#01579B"
+            Font="Bold"
+            FontSize="26"
+            Clicked="LoginWithFacebook_Clicked"/>
+
+    </StackLayout>
+</ContentPage>

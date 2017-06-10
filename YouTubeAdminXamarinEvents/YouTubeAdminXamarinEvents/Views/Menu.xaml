@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YouTubeAdminXamarinEvents.Views.Menu"
+             Title="Menu">
+
+    <Image Source="logo.png" WidthRequest="300" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Aspect="AspectFit" />
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="YouTube" Order="Primary" Icon="youtube.png" Text="YouTube" Priority="0" Clicked="YouTube_Clicked" />
+        <ToolbarItem Name="Azure" Order="Primary" Icon="azure.png" Text="Azure" Priority="1" Clicked="Azure_Clicked" />
+    </ContentPage.ToolbarItems>
+</ContentPage>
